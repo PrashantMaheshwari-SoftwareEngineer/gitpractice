@@ -1,0 +1,28 @@
+git --version
+
+git init (For initialize a empty git repository)
+
+git config --global user.name 'Prashant Maheshwari'
+git config --global user.email 'prashantmaheshwari@outlook.com'
+
+git add . (move file to staging)
+git add filename.txt
+git status (for current status of files)
+git commit -m 'message' (for commit)
+
+git log (to check the history of commits)
+
+git checkout 979d8934d94c4b9b9f0c3bdbe0b2a330c823ff7b (to switch to any previous version)
+
+git log --all (to view the all commits even u r pointing to a previous commit)
+
+
+git checkout -b FeatureA (This will create new branch and checkout that branch)
+
+git checkout master (checkout the master branch)
+git merge FeatureA (this will merge the branch)
+
+
+git remote add origin https://github.com/PrashantMaheshwari-SoftwareEngineer/gitpractice.git (once we create the repo in github and after that we need to run this command)
+
+git push -u origin master (to push the changes to remote repo)
